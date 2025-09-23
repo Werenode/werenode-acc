@@ -15,10 +15,10 @@ const WerenodeACCSite = () => {
   ];
 
   const sites = [
-    { nom: 'Éco-Quartier Luc-sur-Mer', lat: 45.764, lng: 4.835, participants: 45, production: '250 kWh' },
-    { nom: 'Greenwest Montigny', lat: 43.296, lng: 5.370, participants: 32, production: '180 kWh' },
-    { nom: 'Collectif Solaire Versailles', lat: 43.604, lng: 1.444, participants: 28, production: '160 kWh' },
-    { nom: 'Énergie Partagée Nozay', lat: 44.837, lng: -0.579, participants: 38, production: '210 kWh' }
+    { nom: 'Éco-Quartier Luc-sur-Mer', lat: 49.317, lng: -0.348, participants: 4, production: '5834 kWh' },
+    { nom: 'Greenwest Montigny', lat: 48.775, lng: 2.044, participants: 7, production: '9850 kWh' },
+    { nom: 'Collectif Solaire Versailles', lat: 48.800, lng: 2.142, participants: 6, production: '7230 kWh' },
+    { nom: 'Énergie Partagée Nozay', lat: 48.660, lng: 2.234, participants: 5, production: '8345 kWh' }
   ];
 
   const faqData = [
