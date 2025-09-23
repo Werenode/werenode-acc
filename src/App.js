@@ -439,7 +439,7 @@ const WerenodeACCSite = () => {
               Qui sommes-nous ?
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Werenode ACC est une filiale de Werenode spécialisée dans l'autoconsommation collective,
+              Werenode Energie est une activité de Werenode spécialisée dans l'autoconsommation collective,
               créée pour démocratiser l'accès à l'énergie verte et locale.
             </p>
           </div>
@@ -551,7 +551,7 @@ const WerenodeACCSite = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
                 <Zap className="text-white" size={24} />
               </div>
-              <span className="text-2xl font-bold text-gray-900">Werenode ACC</span>
+              <span className="text-2xl font-bold text-gray-900">Werenode Energie</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -618,7 +618,7 @@ const WerenodeACCSite = () => {
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
                   <Zap className="text-white" size={20} />
                 </div>
-                <span className="text-xl font-bold">Werenode ACC</span>
+                <span className="text-xl font-bold">Werenode Energie</span>
               </div>
               <p className="text-gray-400 text-sm">
                 L'autoconsommation collective pour un avenir énergétique durable et solidaire.
@@ -654,7 +654,7 @@ const WerenodeACCSite = () => {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2025 Werenode ACC. Tous droits réservés.</p>
+            <p>&copy; 2025 Werenode. Tous droits réservés.</p>
           </div>
         </div>
       </footer>
