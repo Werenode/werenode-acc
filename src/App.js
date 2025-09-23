@@ -15,11 +15,10 @@ const WerenodeACCSite = () => {
   ];
 
   const sites = [
-    { nom: 'Éco-Quartier Lyon', lat: 45.764, lng: 4.835, participants: 45, production: '250 kWh' },
-    { nom: 'Résidence Verte Marseille', lat: 43.296, lng: 5.370, participants: 32, production: '180 kWh' },
-    { nom: 'Collectif Solaire Toulouse', lat: 43.604, lng: 1.444, participants: 28, production: '160 kWh' },
-    { nom: 'Énergie Partagée Bordeaux', lat: 44.837, lng: -0.579, participants: 38, production: '210 kWh' },
-    { nom: 'Solaire Solidaire Nice', lat: 43.710, lng: 7.262, participants: 22, production: '140 kWh' }
+    { nom: 'Éco-Quartier Luc-sur-Mer', lat: 45.764, lng: 4.835, participants: 45, production: '250 kWh' },
+    { nom: 'Greenwest Montigny', lat: 43.296, lng: 5.370, participants: 32, production: '180 kWh' },
+    { nom: 'Collectif Solaire Versailles', lat: 43.604, lng: 1.444, participants: 28, production: '160 kWh' },
+    { nom: 'Énergie Partagée Nozay', lat: 44.837, lng: -0.579, participants: 38, production: '210 kWh' }
   ];
 
   const faqData = [
