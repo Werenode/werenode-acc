@@ -646,9 +646,9 @@ const WerenodeACCSite = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>+33 1 23 45 67 89</li>
-                <li>acc@werenode.com</li>
-                <li>123 Avenue de l'Énergie<br />78000 Versailles</li>
+                <li>+33 7 77 14 46 43</li>
+                <li>contact@werenode.com</li>
+                <li>9 Rue Joliot-Curie<br />91160 Gif-sur-Yvette</li>
               </ul>
             </div>
           </div>
