@@ -398,8 +398,8 @@ const WerenodeACCSite = () => {
                     <div>
                       <div className="font-semibold text-gray-900">Adresse</div>
                       <div className="text-gray-600">
-                        123 Avenue de l'Énergie<br />
-                        78000 Versailles, France
+                        9 Rue Joliot-Curie<br />
+                        91190 Gif-sur-Yvette, France
                       </div>
                     </div>
                   </div>
@@ -648,7 +648,7 @@ const WerenodeACCSite = () => {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>+33 7 77 14 46 43</li>
                 <li>contact@werenode.com</li>
-                <li>9 Rue Joliot-Curie<br />91160 Gif-sur-Yvette</li>
+                <li>9 Rue Joliot-Curie<br />91190 Gif-sur-Yvette</li>
               </ul>
             </div>
           </div>
