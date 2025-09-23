@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, MapPin, Phone, Mail, Users, Zap, Leaf, ArrowRight, ChevronDown } from 'lucide-react';
+import RejoignezCollectifMap from "./components/RejoignezCollectifMap";
 
 const WerenodeACCSite = () => {
   const [currentPage, setCurrentPage] = useState('accueil');
@@ -188,31 +189,9 @@ const WerenodeACCSite = () => {
             </p>
           </div>
 
-          {/* Carte simulée */}
+          {/* Carte interactive réelle */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
-            <div className="bg-gradient-to-r from-blue-500 to-green-500 h-96 relative">
-              <div className="absolute inset-0 bg-blue-900/30"></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white">
-                <div className="text-center">
-                  <MapPin size={64} className="mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Carte Interactive</h3>
-                  <p className="text-lg opacity-90">Explorez les collectifs près de chez vous</p>
-                </div>
-              </div>
-
-              {/* Points de collectifs */}
-              {sites.map((site, index) => (
-                <div
-                  key={index}
-                  className="absolute bg-white rounded-full w-4 h-4 border-2 border-green-500 hover:scale-150 transition-transform cursor-pointer"
-                  style={{
-                    left: `${20 + index * 15}%`,
-                    top: `${30 + (index % 2) * 20}%`
-                  }}
-                  title={site.nom}
-                ></div>
-              ))}
-            </div>
+            <RejoignezCollectifMap />
           </div>
 
           {/* Liste des collectifs */}
