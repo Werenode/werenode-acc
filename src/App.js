@@ -72,19 +72,19 @@ const WerenodeACCSite = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-300">150+</div>
+                    <div className="text-3xl font-bold text-green-300">4+</div>
                     <div className="text-sm text-blue-100">Collectifs actifs</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-300">2.5MW</div>
+                    <div className="text-3xl font-bold text-green-300">25kW</div>
                     <div className="text-sm text-blue-100">Puissance installée</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-300">-30%</div>
+                    <div className="text-3xl font-bold text-green-300">-20%</div>
                     <div className="text-sm text-blue-100">Réduction moyenne</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-300">5000+</div>
+                    <div className="text-3xl font-bold text-green-300">25+</div>
                     <div className="text-sm text-blue-100">Participants</div>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ const WerenodeACCSite = () => {
                 </div>
               </div>
 
-              {/* Points de collectifs simulés */}
+              {/* Points de collectifs */}
               {sites.map((site, index) => (
                 <div
                   key={index}
@@ -383,14 +383,14 @@ const WerenodeACCSite = () => {
                     <Phone className="text-blue-600 mt-1 mr-4" size={20} />
                     <div>
                       <div className="font-semibold text-gray-900">Téléphone</div>
-                      <div className="text-gray-600">+33 1 23 45 67 89</div>
+                      <div className="text-gray-600">+33 7 77 14 46 43</div>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Mail className="text-blue-600 mt-1 mr-4" size={20} />
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">acc@werenode.com</div>
+                      <div className="text-gray-600">contact@werenode.com</div>
                     </div>
                   </div>
                   <div className="flex items-start">
