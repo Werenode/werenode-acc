@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, MapPin, Phone, Mail, Users, Zap, Leaf, ArrowRight, ChevronDown } from 'lucide-react';
 import RejoignezCollectifMap from "./components/RejoignezCollectifMap";
-import { collectifs } from "../data/collectifs";
+import { collectifs } from "./data/collectifs";
 
 const WerenodeACCSite = () => {
   const [currentPage, setCurrentPage] = useState('accueil');
