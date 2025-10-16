@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, MapPin, Phone, Mail, Users, Zap, Leaf, ArrowRight, ChevronDown } from 'lucide-react';
 import RejoignezCollectifMap from "./components/RejoignezCollectifMap";
+import { collectifs } from "../data/collectifs";
 
 const WerenodeACCSite = () => {
   const [currentPage, setCurrentPage] = useState('accueil');
@@ -13,13 +14,6 @@ const WerenodeACCSite = () => {
     { key: 'faq', label: 'FAQ' },
     { key: 'contact', label: 'Contact' },
     { key: 'qui-sommes-nous', label: 'Qui sommes-nous ?' }
-  ];
-
-  const sites = [
-    { nom: 'Éco-Quartier Luc-sur-Mer', lat: 49.317, lng: -0.348, participants: 4, production: '5834 kWh' },
-    { nom: 'Greenwest Montigny', lat: 48.775, lng: 2.044, participants: 7, production: '9850 kWh' },
-    { nom: 'Collectif Solaire Versailles', lat: 48.800, lng: 2.142, participants: 6, production: '7230 kWh' },
-    { nom: 'Énergie Partagée Nozay', lat: 48.660, lng: 2.234, participants: 5, production: '8345 kWh' }
   ];
 
   const faqData = [
@@ -196,7 +190,7 @@ const WerenodeACCSite = () => {
 
           {/* Liste des collectifs */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {sites.map((site, index) => (
+            {collectifs.map((site, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold text-gray-900">{site.nom}</h3>
