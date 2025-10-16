@@ -93,7 +93,7 @@ export default function RejoignezCollectifMap() {
             <Marker key={c.id} position={[c.lat, c.lng]}>
               <Popup>
                 <div style={{ lineHeight: 1.4 }}>
-                  <strong>{c.name}</strong><br />
+                  <strong>{c.nom}</strong><br />
                   Participants: {c.participants}<br />
                   Puissance: {c.production_kWp} kWc<br />
                   <button
@@ -105,7 +105,7 @@ export default function RejoignezCollectifMap() {
                       cursor: "pointer",
                       background: "white"
                     }}
-                    onClick={() => alert(`Prendre contact avec ${c.name}`)}
+                    onClick={() => alert(`Prendre contact avec ${c.nom}`)}
                   >
                     Rejoindre / Contacter
                   </button>
