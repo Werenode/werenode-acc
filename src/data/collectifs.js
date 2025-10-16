@@ -2,6 +2,6 @@ export const collectifs = [
   { id: 1, name: "Éco-Quartier Luc-sur-Mer", lat: 49.317, lng: -0.348, participants: 4, production_kWp: 6 },
   { id: 2, name: "Greenwest Montigny", lat: 48.775, lng: 2.044, participants: 7, production_kWp: 10 },
   { id: 3, name: "Collectif Solaire Versailles", lat: 48.800, lng: 2.142, participants: 6, production_kWp: 7 },
-  { id: 4, name: "Énergie Partagée Nozay", lat: 48.660, lng: 2.234, participants: 5, production: 5.8 }
+  { id: 4, name: "Énergie Partagée Nozay", lat: 48.660, lng: 2.234, participants: 5, production_kWp: 5.8 }
 ];
 
